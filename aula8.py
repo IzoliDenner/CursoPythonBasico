@@ -23,3 +23,4 @@ numero_2 = input ('Digite o 2 numero a ser somado ')
 numero_2 = int(numero_2)
 
 print(numero_1 + numero_2)
+
