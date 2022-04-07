@@ -7,17 +7,20 @@ Utilizado para realizar ações enquando uma condição for verdadeira
 Requisitor: Entender condições e operadores
 '''
 
-# WHILE - FOR
+# WHILE
+# FOR
 
 # O bloco de códicom com a estrutura em While, é executado enquando for verdadeiro. !!!!
 
-'''1º Exemplo:
-
+#1º Exemplo:
+'''
 while True: #loop infinito
     nome = input('Qual o seu nome? ')
     print(f' Ola {nome}! ')
 '''
-'''2º Exemplo
+
+'''
+#2º Exemplo
 x = 0
 while x < 5:
     print(x)
@@ -25,7 +28,9 @@ while x < 5:
 
 print('Acabou!')
 '''
-'''3º Exemplo
+
+'''
+#3º Exemplo
 x = 0
 while x < 10:
     if x == 3:  # quando x for igual a 3 soma + 1. quando executado pula o 3
@@ -39,7 +44,9 @@ while x < 10:
 
 print('Acabou!')
 '''
-'''4º Exemplo
+
+'''
+#4º Exemplo
 x = 0  # coluna 
 while x < 10:
 # aqui o x aparecera como coluna e o y como linha
@@ -60,7 +67,7 @@ while True:
     num_1 = (input('Digite um numero: '))
     num_2 = (input('Digite outro numero: '))
     operador = input('Digite um Operador: ')
-    sair = input('Deseja Sair? [s] sim ou [n] não')
+    sair = input('Deseja Sair? [s]im ou [n]ão')
 
     if sair == 's':
         break
