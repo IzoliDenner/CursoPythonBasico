@@ -64,11 +64,11 @@ ns = ''
 
 for letra in texto:
     if letra == 't':
-        continue  # neste caso interpreta se quando encontrase a letra t, va para o proximo FOR
+        continue  # neste caso interpreta se quando encontrase a letra t, continue pula para o proximo laço
         ns = ns + letra.upper()
     elif letra == 'h':
         ns = ns + letra.upper()
-        break  # pegou a letra h como solicitado porem o break para o restante do codigo
+        break  # pegou a letra h como solicitado porem o break para o restante do codigo - termina o laço
     else:
         ns = ns + letra
 print(ns)
