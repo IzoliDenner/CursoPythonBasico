@@ -61,7 +61,7 @@ print(ns)
 texto = 'Python'
 ns = ''
 
-
+ 
 for letra in texto:
     if letra == 't':
         continue  # neste caso interpreta se quando encontrase a letra t, continue pula para o proximo laço
